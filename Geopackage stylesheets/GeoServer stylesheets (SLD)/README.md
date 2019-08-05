@@ -1,6 +1,6 @@
 # OS Open Rivers
 
-These are SLD files for OS Open Rivers in GZ/GML format for use in GeoServer.
+These are SLD files for OS Open Rivers in Geopackage for use in GeoServer.
 
 ## Quick start guide
 
