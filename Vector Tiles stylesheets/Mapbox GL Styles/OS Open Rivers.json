@@ -1,0 +1,49 @@
+{
+    "version": 8,
+    "name": "OS Open Rivers",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "android": "9.3.0",
+            "ios": "5.10.0",
+            "js": "2.0.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [-1.4848792556605872, 50.94486106233657],
+    "zoom": 11.748913594436345,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://ADD-SOURCE-URL-HERE", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/workshops/ckn9f8t9d36mb17o2opp93i5p/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/workshops/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "watercourse-link",
+            "type": "line",
+            "source": "composite",
+            "source-layer": "watercourse_link",
+            "layout": {},
+            "paint": {"line-color": "#0031c7"}
+        },
+        {
+            "id": "hydro-node",
+            "type": "circle",
+            "source": "composite",
+            "source-layer": "hydro_node",
+            "minzoom": 12,
+            "layout": {},
+            "paint": {"circle-color": "#0031c7", "circle-radius": 4}
+        }
+    ],
+    "created": "2021-04-08T21:57:56.657Z",
+    "modified": "2021-04-08T22:02:10.040Z",
+    "id": "ckn9f8t9d36mb17o2opp93i5p",
+    "owner": "ordnancesurvey",
+    "visibility": "public",
+    "draft": false
+}
