@@ -1,6 +1,6 @@
 # OS Open Rivers
 
-These are SLD files for OS Open Rivers in Geopackage for use in GeoServer.
+These are **SLD** files for OS Open Rivers in **Geopackage** for use in **GeoServer**.
 
 ## Quick start guide
 
@@ -22,7 +22,7 @@ Your map should now look similar to this:
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 
-##Compatibility notes
+## Compatibility notes
 
 Although SLD is an open OGC standard, these SLDs do contain some extended code used by GeoServer, namely the ‘vendor option’ tags.
 
