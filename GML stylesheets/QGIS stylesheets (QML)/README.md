@@ -1,6 +1,6 @@
 # OS Open Rivers
 
-These are QML files for OS Open Rivers in GZ/GML format for use in QGIS.
+These are **QML** files for OS Open Rivers in **GZ/GML** format for use in **QGIS**.
 
 *They have been designed to work with the data as it is supplied.*
 
