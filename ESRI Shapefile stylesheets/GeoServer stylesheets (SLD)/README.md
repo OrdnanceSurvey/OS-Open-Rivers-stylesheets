@@ -16,7 +16,7 @@ These are **SLD** files for OS Open Rivers in **shapefile** format for use in **
 
 **5.**  To create OS Open Rivers in GeoServer you will need to create a Layer Group. If using the GUI then navigate to Layer Groups > Add new layer group > Add Layer and choose each layer in turn to create the following layer order:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/master/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/Open_Rivers_layer_order.png "Recommended layer order for OS Open Rivers")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/1b015ef07f332e139e49dc77413105a52af8d601/ESRI%20Shapefile%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/Open_Rivers_layer_order.png "Recommended layer order for OS Open Rivers")
 
 Your map should now look similar to this: 
 
