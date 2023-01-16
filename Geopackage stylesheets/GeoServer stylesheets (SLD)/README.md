@@ -2,11 +2,13 @@
 
 These are **SLD** files for OS Open Rivers in **Geopackage** for use in **GeoServer**.
 
+*They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
+
 ## Quick start guide
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Load your OS Open Rivers data into QGIS
+**2.**  Load your OS Open Rivers data into GeoServer
 
 **3.**  Add the styles. If using the GUI then navigate to Styles > Add a new style > Browse and select to add each file in turn.
 
@@ -30,7 +32,7 @@ Although SLD is an open OGC standard, these SLDs do contain some extended code u
 
 [For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
-[More information about OS Open Map-Local](https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-rivers.html)
+[More information about OS Open Rivers](https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-rivers.html)
 
 ## Licence
 
