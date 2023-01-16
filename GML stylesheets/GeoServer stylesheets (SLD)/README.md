@@ -2,6 +2,8 @@
 
 These are **SLD** files for OS Open Rivers in **GZ/GML** format for use in **GeoServer**.
 
+*They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
+
 ## Quick start guide
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/archive/master.zip) the contents of this repository
