@@ -1,107 +1,26 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyAlgorithm="0" readOnly="0" maxScale="100000" minScale="1e+08" labelsEnabled="0" version="3.4.1-Madeira" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" simplifyLocal="1" styleCategories="AllStyleCategories" simplifyDrawingTol="1" simplifyMaxScale="1">
+<qgis simplifyDrawingTol="1" simplifyAlgorithm="0" labelsEnabled="0" simplifyMaxScale="1" maxScale="100000" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" version="3.16.7-Hannover" simplifyDrawingHints="0" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <renderer-v2 forceraster="0" symbollevels="0" attr="hydroNodeCategory" enableorderby="0" type="categorizedSymbol">
+  <temporal mode="0" startExpression="" enabled="0" durationField="" durationUnit="min" endExpression="" startField="" endField="" accumulate="0" fixedDuration="0">
+    <fixedRange>
+      <start></start>
+      <end></end>
+    </fixedRange>
+  </temporal>
+  <renderer-v2 type="categorizedSymbol" enableorderby="0" symbollevels="0" attr="hydroNodeCategory" forceraster="0">
     <categories>
-      <category value="" symbol="0" render="true" label=""/>
-      <category value="junction" symbol="1" render="true" label="junction"/>
-      <category value="outlet" symbol="2" render="true" label="outlet"/>
-      <category value="source" symbol="3" render="true" label="source"/>
+      <category render="true" value="source" symbol="0" label="source"/>
+      <category render="true" value="outlet" symbol="1" label="outlet"/>
+      <category render="true" value="junction" symbol="2" label="junction"/>
+      <category render="true" value="" symbol="3" label="inapplicable/unknown"/>
     </categories>
     <symbols>
-      <symbol alpha="1" clip_to_extent="1" name="0" type="marker">
-        <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
-          <prop v="0" k="angle"/>
-          <prop v="255,255,255,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="237,225,132,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.5" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="area" k="scale_method"/>
-          <prop v="2.2" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" name="1" type="marker">
-        <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
-          <prop v="0" k="angle"/>
-          <prop v="255,255,255,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="132,197,237,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.5" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="area" k="scale_method"/>
-          <prop v="2.2" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" name="2" type="marker">
-        <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
-          <prop v="0" k="angle"/>
-          <prop v="255,255,255,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="circle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="237,117,179,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.5" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="area" k="scale_method"/>
-          <prop v="2.2" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" name="3" type="marker">
-        <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
+      <symbol type="marker" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+        <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
           <prop v="0" k="angle"/>
           <prop v="255,255,255,255" k="color"/>
           <prop v="1" k="horizontal_anchor_point"/>
@@ -122,17 +41,104 @@
           <prop v="1" k="vertical_anchor_point"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol type="marker" name="1" clip_to_extent="1" force_rhr="0" alpha="1">
+        <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="255,255,255,255" k="color"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="circle" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="237,117,179,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.5" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="area" k="scale_method"/>
+          <prop v="2.2" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol type="marker" name="2" clip_to_extent="1" force_rhr="0" alpha="1">
+        <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="255,255,255,255" k="color"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="circle" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="132,197,237,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.5" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="area" k="scale_method"/>
+          <prop v="2.2" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol type="marker" name="3" clip_to_extent="1" force_rhr="0" alpha="1">
+        <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+          <prop v="0" k="angle"/>
+          <prop v="255,255,255,255" k="color"/>
+          <prop v="1" k="horizontal_anchor_point"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="circle" k="name"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="237,225,132,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.5" k="outline_width"/>
+          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="area" k="scale_method"/>
+          <prop v="2.2" k="size"/>
+          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+          <prop v="MM" k="size_unit"/>
+          <prop v="1" k="vertical_anchor_point"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol alpha="1" clip_to_extent="1" name="0" type="marker">
-        <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
+      <symbol type="marker" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+        <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
           <prop v="0" k="angle"/>
           <prop v="187,131,162,255" k="color"/>
           <prop v="1" k="horizontal_anchor_point"/>
@@ -153,9 +159,9 @@
           <prop v="1" k="vertical_anchor_point"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -165,8 +171,8 @@
     <sizescale/>
   </renderer-v2>
   <customproperties>
-    <property value="fid" key="dualview/previewExpressions"/>
-    <property value="0" key="embeddedWidgets/count"/>
+    <property key="dualview/previewExpressions" value="fid"/>
+    <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
@@ -174,39 +180,76 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory penWidth="0" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" penAlpha="255" lineSizeType="MM" opacity="1" backgroundAlpha="255" diagramOrientation="Up" maxScaleDenominator="1e+08" scaleBasedVisibility="0" scaleDependency="Area" backgroundColor="#ffffff" enabled="0" penColor="#000000" width="15" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" minimumSize="0" sizeType="MM" height="15" labelPlacementMethod="XHeight" minScaleDenominator="100000">
-      <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+    <DiagramCategory sizeType="MM" width="15" backgroundAlpha="255" opacity="1" penAlpha="255" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" spacing="0" penWidth="0" direction="1" diagramOrientation="Up" scaleBasedVisibility="0" spacingUnitScale="3x:0,0,0,0,0,0" rotationOffset="270" showAxis="0" spacingUnit="MM" labelPlacementMethod="XHeight" barWidth="5" enabled="0" penColor="#000000" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" minimumSize="0" height="15" sizeScale="3x:0,0,0,0,0,0" minScaleDenominator="100000">
+      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute color="#000000" field="" label=""/>
+      <axisSymbol>
+        <symbol type="line" name="" clip_to_extent="1" force_rhr="0" alpha="1">
+          <layer enabled="1" pass="0" class="SimpleLine" locked="0">
+            <prop v="0" k="align_dash_pattern"/>
+            <prop v="square" k="capstyle"/>
+            <prop v="5;2" k="customdash"/>
+            <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+            <prop v="MM" k="customdash_unit"/>
+            <prop v="0" k="dash_pattern_offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+            <prop v="MM" k="dash_pattern_offset_unit"/>
+            <prop v="0" k="draw_inside_polygon"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="35,35,35,255" k="line_color"/>
+            <prop v="solid" k="line_style"/>
+            <prop v="0.26" k="line_width"/>
+            <prop v="MM" k="line_width_unit"/>
+            <prop v="0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0" k="ring_filter"/>
+            <prop v="0" k="tweak_dash_pattern_on_corners"/>
+            <prop v="0" k="use_custom_dash"/>
+            <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings obstacle="0" linePlacementFlags="18" placement="0" priority="0" zIndex="0" dist="0" showAll="1">
+  <DiagramLayerSettings linePlacementFlags="18" dist="0" showAll="1" priority="0" placement="0" zIndex="0" obstacle="0">
     <properties>
       <Option type="Map">
-        <Option value="" name="name" type="QString"/>
+        <Option type="QString" name="name" value=""/>
         <Option name="properties"/>
-        <Option value="collection" name="type" type="QString"/>
+        <Option type="QString" name="type" value="collection"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
+  <legend type="default-vector"/>
+  <referencedLayers/>
   <fieldConfiguration>
-    <field name="fid">
+    <field name="fid" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="id">
+    <field name="id" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="hydroNodeCategory">
+    <field name="hydroNodeCategory" configurationFlags="None">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -215,43 +258,42 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias index="0" name="" field="fid"/>
-    <alias index="1" name="" field="id"/>
-    <alias index="2" name="" field="hydroNodeCategory"/>
+    <alias name="" field="fid" index="0"/>
+    <alias name="" field="id" index="1"/>
+    <alias name="" field="hydroNodeCategory" index="2"/>
   </aliases>
-  <excludeAttributesWMS/>
-  <excludeAttributesWFS/>
   <defaults>
-    <default applyOnUpdate="0" expression="" field="fid"/>
-    <default applyOnUpdate="0" expression="" field="id"/>
-    <default applyOnUpdate="0" expression="" field="hydroNodeCategory"/>
+    <default field="fid" expression="" applyOnUpdate="0"/>
+    <default field="id" expression="" applyOnUpdate="0"/>
+    <default field="hydroNodeCategory" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint unique_strength="1" constraints="3" exp_strength="0" field="fid" notnull_strength="1"/>
-    <constraint unique_strength="0" constraints="1" exp_strength="0" field="id" notnull_strength="1"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="hydroNodeCategory" notnull_strength="0"/>
+    <constraint unique_strength="1" exp_strength="0" constraints="3" field="fid" notnull_strength="1"/>
+    <constraint unique_strength="0" exp_strength="0" constraints="1" field="id" notnull_strength="1"/>
+    <constraint unique_strength="0" exp_strength="0" constraints="1" field="hydroNodeCategory" notnull_strength="1"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" exp="" field="fid"/>
-    <constraint desc="" exp="" field="id"/>
-    <constraint desc="" exp="" field="hydroNodeCategory"/>
+    <constraint field="fid" desc="" exp=""/>
+    <constraint field="id" desc="" exp=""/>
+    <constraint field="hydroNodeCategory" desc="" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+  <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
     <columns>
-      <column hidden="0" width="-1" name="hydroNodeCategory" type="field"/>
-      <column hidden="1" width="-1" type="actions"/>
-      <column hidden="0" width="-1" name="fid" type="field"/>
-      <column hidden="0" width="-1" name="id" type="field"/>
+      <column type="field" name="hydroNodeCategory" width="-1" hidden="0"/>
+      <column type="actions" width="-1" hidden="1"/>
+      <column type="field" name="fid" width="-1" hidden="0"/>
+      <column type="field" name="id" width="-1" hidden="0"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
     <rowstyles/>
     <fieldstyles/>
   </conditionalstyles>
+  <storedexpressions/>
   <editform tolerant="1"></editform>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
@@ -276,17 +318,18 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="1" name="fid"/>
-    <field editable="1" name="hydroNodeCategory"/>
-    <field editable="1" name="id"/>
+    <field name="fid" editable="1"/>
+    <field name="hydroNodeCategory" editable="1"/>
+    <field name="id" editable="1"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="fid"/>
-    <field labelOnTop="0" name="hydroNodeCategory"/>
-    <field labelOnTop="0" name="id"/>
+    <field name="fid" labelOnTop="0"/>
+    <field name="hydroNodeCategory" labelOnTop="0"/>
+    <field name="id" labelOnTop="0"/>
   </labelOnTop>
+  <dataDefinedFieldProperties/>
   <widgets/>
-  <previewExpression>fid</previewExpression>
+  <previewExpression>"fid"</previewExpression>
   <mapTip>gml_id</mapTip>
   <layerGeometryType>0</layerGeometryType>
 </qgis>
