@@ -26,7 +26,7 @@ We recommend viewing the map between **1:1,000** and **1:200,000** for maximum l
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/images/Open_Rivers_Screenshot.png "Screenshot of OS Open Rivers")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/c6605ac0ae7f81adfc97e8994987396ad6b9a1be/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/OpenRivers_layerorder_qgis.PNG "Screenshot of OS Open Rivers")
 
 ## Additional information
 
