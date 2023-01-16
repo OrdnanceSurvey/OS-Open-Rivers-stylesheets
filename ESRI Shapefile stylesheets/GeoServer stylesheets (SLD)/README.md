@@ -2,7 +2,7 @@
 
 These are **SLD** files for OS Open Rivers in **shapefile** format for use in **GeoServer**.
 
-'They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.'
+*They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
 ## Quick start guide
 
