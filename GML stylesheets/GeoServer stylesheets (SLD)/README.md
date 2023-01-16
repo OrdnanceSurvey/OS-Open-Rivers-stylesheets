@@ -20,7 +20,7 @@ These are **SLD** files for OS Open Rivers in **GZ/GML** format for use in **Geo
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/master/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/Open_Rivers_Screenshot.png "Image of OS Open Rivers")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/851c9aed13ff67fb7279a0824b870b16758fea4a/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/OpenRivers_GeoServer.PNG "Image of OS Open Rivers")
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 
