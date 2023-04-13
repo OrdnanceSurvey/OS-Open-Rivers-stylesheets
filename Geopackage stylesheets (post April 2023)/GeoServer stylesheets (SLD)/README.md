@@ -22,7 +22,7 @@ These are **SLD** files for OS Open Rivers in **Geopackage** for use in **GeoSer
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/4a09671205f71a5cf2d6784ee69cfe5b8fd1785c/Geopackage%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/OpenRivers_GeoServer.PNG "Image of OS Open Rivers")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/244466480860deae5c31e8c588c734be7b6bed6b/Geopackage%20stylesheets%20(post%20April%202023)/GeoServer%20stylesheets%20(SLD)/images/OpenRivers_GeoServer.png "Image of OS Open Rivers")
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 
