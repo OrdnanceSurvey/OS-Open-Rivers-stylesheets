@@ -4,6 +4,8 @@ These are **SLD** files for OS Open Rivers in **Geopackage** for use in **GeoSer
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
+*They have been designed to work with data in geopackage format downloaded from the OS DataHub **prior to April 2023***
+
 ## Quick start guide
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/archive/master.zip) the contents of this repository
