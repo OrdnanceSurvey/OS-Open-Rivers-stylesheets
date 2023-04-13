@@ -17,7 +17,7 @@ These are **LYRX** files for OS Open Rivers in **Geopackage** format for use in 
 
 **5.**  We recommend the following layer order and visibility:
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/master/ESRI%20Shapefile%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/Open_Rivers_layer_order.JPG "Recommended layer order for OS Open Rivers")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/0b7ab154789cb00da019bdbdee2061c2035fbede/Geopackage%20stylesheets%20(post%20April%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/Open_Rivers_layer_order.JPG "Recommended layer order for OS Open Rivers")
 
 **6.** Double-click on a layer to access the Layer 'Properties' window > select the 'Source' tab > clcik on 'Set Data Source...' > navigate to your OS Open Rivers data > select the data that matches the layer > select 'Add'
 
