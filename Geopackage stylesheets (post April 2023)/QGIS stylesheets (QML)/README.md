@@ -20,7 +20,7 @@ These are **QML** files for OS Open Rivers in **Geopackage** format for use in *
 
 **6.**  We recommend the following layer order and visibility:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/c6605ac0ae7f81adfc97e8994987396ad6b9a1be/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/OpenRivers_layerorder_qgis.PNG "Recommended layer order for OS Open Rivers")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/27bf12b490458905fcb61a07b9940ebc1210f75e/Geopackage%20stylesheets%20(post%20April%202023)/QGIS%20stylesheets%20(QML)/images/Open_Rivers_layer_order.JPG "Recommended layer order for OS Open Rivers")
 
 We recommend viewing the map between **1:1,000** and **1:200,000** for maximum legibility
 
