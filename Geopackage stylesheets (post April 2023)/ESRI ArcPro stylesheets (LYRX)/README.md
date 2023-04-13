@@ -25,7 +25,7 @@ We recommend viewing the map between **1:1,000** and **1:200,000** for maximum l
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/master/ESRI%20Shapefile%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/Open_Rivers_screenshot.JPG "Screenshot of OS Open Rivers")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Rivers-stylesheets/blob/4075141a9bcae833f6abbf3a39081ebc36c4cd2a/Geopackage%20stylesheets%20(post%20April%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/Open_Rivers_screenshot.JPG "Screenshot of OS Open Rivers")
 
 ## Additional information
 
